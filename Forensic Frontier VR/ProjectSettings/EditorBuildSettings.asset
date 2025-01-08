@@ -4,7 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Project folders/Project scenes/Start scene.unity
+    guid: 6dde367df2c247c49bade246e219e47b
+  - enabled: 1
+    path: Assets/Project folders/Project scenes/Investigation lecture scene.unity
+    guid: 637491671a67ef64e973717a6a13745a
+  - enabled: 1
+    path: Assets/Project folders/Project scenes/Crime scene Investigation.unity
+    guid: e508a462642c22b4f892f330ef026d0e
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8b36a1562c805b543a33d0a2464561e0, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2a78d9655f1d3084fb66c7d6531d633e, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: e77b48526dc1e0f4d8413f3ed1b8c3d5, type: 2}
