@@ -20,7 +20,6 @@ public class Hand_Animation : MonoBehaviour
     {
         float triggerValue = Triggeraction.action.ReadValue<float>();
         float gripValue = gripAction.action.ReadValue<float>();
-
         animator.SetFloat("Trigger", triggerValue);
         animator.SetFloat("Grip", gripValue);
     }

@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Adhesive
+  - Inventory canvas
+  - UI
+  - Adhesive Card
+  - Swab
+  - Post it
+  - Evidence
   - 
   - 
   - 

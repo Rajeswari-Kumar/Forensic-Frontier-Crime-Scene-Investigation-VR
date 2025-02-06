@@ -1,0 +1,516 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5228756133636458575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 993268899913803842}
+  - component: {fileID: 262553746442661558}
+  - component: {fileID: 886290184867940809}
+  m_Layer: 0
+  m_Name: Instruction Trigger
+  m_TagString: Instruction Trigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &993268899913803842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5228756133636458575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.89, y: 0.54, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1034608382201846979}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &262553746442661558
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5228756133636458575}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15, y: 1, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &886290184867940809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5228756133636458575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd2174755e84ca4a9f76746c6e6273a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Instructions: To begin with collecting fingerprints , Use UV light + Magnetic powder
+    + Dusting brush + Lifting tape + Card to find , collect and sacure the fingerprints
+    for further analysis. Use UV light to fing impressions as they are invisible
+    to naked eyes. Remember to sprinke little amount of magnetic powder , as even
+    a slight increased amount of it will destroy the impression.
+  Instruction_text: {fileID: 0}
+--- !u!1 &8641190860804315146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1034608382201846979}
+  m_Layer: 0
+  m_Name: FingerPrint Sample Collection
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1034608382201846979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8641190860804315146}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -47.39, y: 0, z: -60.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6424669331898052499}
+  - {fileID: 5265170728802876468}
+  - {fileID: 574255556071881811}
+  - {fileID: 2901263086632361811}
+  - {fileID: 8056682661597911762}
+  - {fileID: 993268899913803842}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &734398808182529107
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1034608382201846979}
+    m_Modifications:
+    - target: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0599976
+      objectReference: {fileID: 0}
+    - target: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.75766534
+      objectReference: {fileID: 0}
+    - target: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.65264326
+      objectReference: {fileID: 0}
+    - target: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -81.482
+      objectReference: {fileID: 0}
+    - target: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1538787252200162992, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_Color.a
+      value: 0.29803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794441816860800452, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      propertyPath: m_Name
+      value: FingerPrint on window
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6714534204258137565, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8760420955650991879}
+  m_SourcePrefab: {fileID: 100100000, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+--- !u!4 &574255556071881811 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 993379831385546752, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+  m_PrefabInstance: {fileID: 734398808182529107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6277959175468525966 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6714534204258137565, guid: cfacdfcde68bc704d979a59ce85c696d, type: 3}
+  m_PrefabInstance: {fileID: 734398808182529107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &8760420955650991879
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6277959175468525966}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1001 &4580786333609980064
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1034608382201846979}
+    m_Modifications:
+    - target: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.470001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.90999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2348136581713872365, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9849999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565596277846100860, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9849999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522911196124300771, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_Color.a
+      value: 0.31764707
+      objectReference: {fileID: 0}
+    - target: {fileID: 6709931153709658221, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9849999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7595438362397363674, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805208729818278461, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9849999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8194401357837102618, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_Name
+      value: Finger prints on wine glass
+      objectReference: {fileID: 0}
+    - target: {fileID: 8436048485626809038, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9849999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442310833758996462, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+      propertyPath: m_Color.a
+      value: 0.31764707
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+--- !u!4 &2901263086632361811 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1716262341397819379, guid: ad53df10a8b5f2b4eaaabea4447646c4, type: 3}
+  m_PrefabInstance: {fileID: 4580786333609980064}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7510951504718679409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1034608382201846979}
+    m_Modifications:
+    - target: {fileID: 252362512743260811, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_Name
+      value: FingerPrint on sink faucet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.080002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.735
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5990028
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898338911418745858, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+      propertyPath: m_Color.a
+      value: 0.22745098
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+--- !u!4 &5265170728802876468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2390820384433058117, guid: 94912f6b3849e4f47a02740d19558f55, type: 3}
+  m_PrefabInstance: {fileID: 7510951504718679409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7743181456557037806
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1034608382201846979}
+    m_Modifications:
+    - target: {fileID: 2034334013535290204, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_Name
+      value: FingerPrint on door handle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.12999725
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7244731
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.68930304
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -87.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4324654727463822783, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799521010191084748, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_Color.a
+      value: 0.43137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799521010191084748, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: f68db2ebfb64e984eb2741aa80251cf2, type: 2}
+    - target: {fileID: 6167339116818146151, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+--- !u!4 &6424669331898052499 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3628859193397114749, guid: 68c5067173e905542bac70c4314cc18c, type: 3}
+  m_PrefabInstance: {fileID: 7743181456557037806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8945295830123268858
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1034608382201846979}
+    m_Modifications:
+    - target: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.62245387
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.78265655
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 103.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2284814051354062363, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_Color.a
+      value: 0.25490198
+      objectReference: {fileID: 0}
+    - target: {fileID: 3185790702938274506, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+      propertyPath: m_Name
+      value: Fingerprint on Cupboard handle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+--- !u!4 &8056682661597911762 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1435246507385180200, guid: 779fc4cd15ffde04489b27fb391d97ab, type: 3}
+  m_PrefabInstance: {fileID: 8945295830123268858}
+  m_PrefabAsset: {fileID: 0}

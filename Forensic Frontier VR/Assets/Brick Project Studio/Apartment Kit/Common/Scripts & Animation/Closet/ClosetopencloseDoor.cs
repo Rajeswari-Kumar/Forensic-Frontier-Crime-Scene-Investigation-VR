@@ -1,20 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace SojaExiles
 
 {
+
 	public class ClosetopencloseDoor : MonoBehaviour
 	{
-
 		public Animator Closetopenandclose;
 		public bool open;
 		public Transform Player;
-
+		public InputActionProperty opendoor;
 		void Start()
 		{
 			open = false;
+			Player = GameObject.FindGameObjectWithTag("Player").transform;
 		}
 
 		void OnMouseOver()
@@ -27,7 +29,7 @@ namespace SojaExiles
 					{
 						if (open == false)
 						{
-							if (Input.GetMouseButtonDown(0))
+							if (Input.GetMouseButtonDown(0) || opendoor.action.IsPressed())
 							{
 								StartCoroutine(opening());
 							}
@@ -36,7 +38,7 @@ namespace SojaExiles
 						{
 							if (open == true)
 							{
-								if (Input.GetMouseButtonDown(0))
+								if (Input.GetMouseButtonDown(0) || opendoor.action.IsPressed())
 								{
 									StartCoroutine(closing());
 								}

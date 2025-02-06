@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Project folders/Project scenes/Crime scene Investigation.unity
     guid: e508a462642c22b4f892f330ef026d0e
+  - enabled: 1
+    path: Assets/Project folders/Project scenes/Suspects interrogation scene.unity
+    guid: ec94c370ec72715418e32c391c772584
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8b36a1562c805b543a33d0a2464561e0, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2a78d9655f1d3084fb66c7d6531d633e, type: 2}

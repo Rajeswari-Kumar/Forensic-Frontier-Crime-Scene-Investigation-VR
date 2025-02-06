@@ -3,17 +3,47 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fingerprint Trigger
+  - Tape Adhesive
+  - Tape Adhesive Area
+  - FingerPrint
+  - Fingerprint Card
+  - Distilled water dripper
+  - Blood stain wet
+  - Blood stain dry
+  - Blood swab
+  - Tweezers
+  - Hair strand
+  - UV torch
+  - Post its
+  - Digital camera
+  - FootPrint
+  - Print lifting brush
+  - Evidence marker
+  - Chalk to outline
+  - DrawingSurface
+  - Whiteboard
+  - Instruction Canvas
+  - Instruction Trigger
+  - Victim's mobile
+  - The Mask
+  - The glove
+  - Letter opener
+  - Evidence bag
+  - Card for fingerprint reveal
+  - Evidences collected
+  - Evidence timings record
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Adhesive
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Adhesive Card
+  - Swab
+  - Post it
   - 
   - 
   - 
